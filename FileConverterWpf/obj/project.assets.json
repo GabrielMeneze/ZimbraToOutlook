@@ -1,0 +1,142 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0-windows7.0": {
+      "Microsoft.Office.Interop.Outlook/15.0.4797.1004": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Outlook.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Outlook.dll": {}
+        }
+      },
+      "SharpZipLib/1.4.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/ICSharpCode.SharpZipLib.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Office.Interop.Outlook/15.0.4797.1004": {
+      "sha512": "17tdFXg/TGnbmSC9YNkIrB6P3vTSemOMI/TaUaZWQmRE1dMjHIVmBPffQhXasH/te4weHiFk8EEXUCi/NsGbuA==",
+      "type": "package",
+      "path": "microsoft.office.interop.outlook/15.0.4797.1004",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/Microsoft.Office.Interop.Outlook.dll",
+        "lib/netstandard2.0/Microsoft.Office.Interop.Outlook.dll",
+        "microsoft.office.interop.outlook.15.0.4797.1004.nupkg.sha512",
+        "microsoft.office.interop.outlook.nuspec"
+      ]
+    },
+    "SharpZipLib/1.4.2": {
+      "sha512": "yjj+3zgz8zgXpiiC3ZdF/iyTBbz2fFvMxZFEBPUcwZjIvXOf37Ylm+K58hqMfIBt5JgU/Z2uoUS67JmTLe973A==",
+      "type": "package",
+      "path": "sharpziplib/1.4.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "images/sharpziplib-nuget-256x256.png",
+        "lib/net6.0/ICSharpCode.SharpZipLib.dll",
+        "lib/net6.0/ICSharpCode.SharpZipLib.pdb",
+        "lib/net6.0/ICSharpCode.SharpZipLib.xml",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.dll",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.pdb",
+        "lib/netstandard2.0/ICSharpCode.SharpZipLib.xml",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.dll",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.pdb",
+        "lib/netstandard2.1/ICSharpCode.SharpZipLib.xml",
+        "sharpziplib.1.4.2.nupkg.sha512",
+        "sharpziplib.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0-windows7.0": [
+      "Microsoft.Office.Interop.Outlook >= 15.0.4797.1004",
+      "SharpZipLib >= 1.4.2"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gabriel.oliveira\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\gabriel.oliveira\\Documents\\GitHub\\ZimbraToOutlook\\FileConverterWpf\\FileConverterWpf.csproj",
+      "projectName": "FileConverterWpf",
+      "projectPath": "C:\\Users\\gabriel.oliveira\\Documents\\GitHub\\ZimbraToOutlook\\FileConverterWpf\\FileConverterWpf.csproj",
+      "packagesPath": "C:\\Users\\gabriel.oliveira\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gabriel.oliveira\\Documents\\GitHub\\ZimbraToOutlook\\FileConverterWpf\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\gabriel.oliveira\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0-windows7.0": {
+        "targetAlias": "net7.0-windows",
+        "dependencies": {
+          "Microsoft.Office.Interop.Outlook": {
+            "target": "Package",
+            "version": "[15.0.4797.1004, )"
+          },
+          "SharpZipLib": {
+            "target": "Package",
+            "version": "[1.4.2, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

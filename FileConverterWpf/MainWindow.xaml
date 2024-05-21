@@ -1,0 +1,12 @@
+﻿<Window x:Class="FileConverterWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="File Converter" Height="350" Width="525">
+	<Grid>
+		<Label Content="Select a .TGZ file:" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+		<TextBox Name="FilePathTextBox" HorizontalAlignment="Left" Height="23" Margin="10,30,0,0" VerticalAlignment="Top" Width="400"/>
+		<Button Content="Browse" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="420,30,0,0" Click="BrowseButton_Click"/>
+		<Button Content="Convert" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="10,60,0,0" Click="ConvertButton_Click"/>
+		<TextBox Name="OutputTextBox" HorizontalAlignment="Left" Height="200" Margin="10,100,0,0" VerticalAlignment="Top" Width="485"/>
+	</Grid>
+</Window>

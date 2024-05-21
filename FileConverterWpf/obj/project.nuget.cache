@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "kLA10GxL8S/hGRmhCKPz21uTtVw6qbVlrpf5SzAl1i0FF+EQc01SznjOH45Fhtu4gcnDZX+mgNfavGVlxoC2Ew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gabriel.oliveira\\Documents\\GitHub\\ZimbraToOutlook\\FileConverterWpf\\FileConverterWpf.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gabriel.oliveira\\.nuget\\packages\\microsoft.office.interop.outlook\\15.0.4797.1004\\microsoft.office.interop.outlook.15.0.4797.1004.nupkg.sha512",
+    "C:\\Users\\gabriel.oliveira\\.nuget\\packages\\sharpziplib\\1.4.2\\sharpziplib.1.4.2.nupkg.sha512"
+  ],
+  "logs": []
+}

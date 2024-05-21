@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "FileConverterWpf/1.0.0": {
+        "dependencies": {
+          "Microsoft.Office.Interop.Outlook": "15.0.4797.1004",
+          "SharpZipLib": "1.4.2"
+        },
+        "runtime": {
+          "FileConverterWpf.dll": {}
+        }
+      },
+      "Microsoft.Office.Interop.Outlook/15.0.4797.1004": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Office.Interop.Outlook.dll": {
+            "assemblyVersion": "15.0.0.0",
+            "fileVersion": "15.0.4797.1003"
+          }
+        }
+      },
+      "SharpZipLib/1.4.2": {
+        "runtime": {
+          "lib/net6.0/ICSharpCode.SharpZipLib.dll": {
+            "assemblyVersion": "1.4.2.13",
+            "fileVersion": "1.4.2.13"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FileConverterWpf/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Office.Interop.Outlook/15.0.4797.1004": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-17tdFXg/TGnbmSC9YNkIrB6P3vTSemOMI/TaUaZWQmRE1dMjHIVmBPffQhXasH/te4weHiFk8EEXUCi/NsGbuA==",
+      "path": "microsoft.office.interop.outlook/15.0.4797.1004",
+      "hashPath": "microsoft.office.interop.outlook.15.0.4797.1004.nupkg.sha512"
+    },
+    "SharpZipLib/1.4.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-yjj+3zgz8zgXpiiC3ZdF/iyTBbz2fFvMxZFEBPUcwZjIvXOf37Ylm+K58hqMfIBt5JgU/Z2uoUS67JmTLe973A==",
+      "path": "sharpziplib/1.4.2",
+      "hashPath": "sharpziplib.1.4.2.nupkg.sha512"
+    }
+  }
+}
